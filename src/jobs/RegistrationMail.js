@@ -4,7 +4,8 @@ export default {
   key: 'RegistrationMail',
   options: {
     delay: 5000,
-    priority: 3
+    priority: 3,
+    attempts: 2
   },
   async handle({ data }) {
     const { user } = data;
