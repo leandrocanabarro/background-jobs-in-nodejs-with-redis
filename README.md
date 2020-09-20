@@ -1,7 +1,6 @@
-<br />
-<p align="center">
-  Background jobs in nodejs with redis
-</p>
+<h3 align="center">
+	Background jobs in Node.js with Redis.
+</h3>
 
 <p align="center">
   Using a library called Bull for prioritizing processes, monitoring events, number of simultaneous processes, in addition to working in separate threads in the application.
